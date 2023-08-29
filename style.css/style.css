@@ -10,6 +10,7 @@
   background: rgba(229, 84, 115, 0.1);
   align-items: center;
   padding: 0 200px;
+   
 }
 .img {
   width: 300px;
@@ -121,4 +122,26 @@
 }
 .facility-cobtainer p {
   margin-bottom: 25px;
+}
+/* extra section */
+.extra {
+  margin: 80px 350px;
+  height: 300px;
+  width: 600px;
+   
+  border-radius: 8px;
+  background-image: url("/assunnah-project-tree-plantation.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+   
+}
+.extra-titel{
+  text-align: center;
+  font-size: 50px;
+
+}
+.extra-titel:hover{
+  color: green;
+  cursor: pointer;
+  
 }
