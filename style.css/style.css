@@ -10,7 +10,6 @@
   background: rgba(229, 84, 115, 0.1);
   align-items: center;
   padding: 0 200px;
-   
 }
 .img {
   width: 300px;
@@ -87,10 +86,10 @@
   display: flex;
 
   align-items: center;
-  text-align: center;
+
   margin-bottom: 130px;
-  margin: 0 350px;
-  justify-content: space-around;
+  margin: 0 300px;
+  justify-content: space-between;
 }
 .flower-li li {
   list-style: none;
@@ -103,45 +102,104 @@
   font-weight: 700px;
 }
 .facility-cobtainer {
-  display: flex;
-  justify-content: space-between;
-
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 
   margin: 128px 250px;
   align-items: center;
   text-align: center;
-  padding: 20px 200px;
 }
+.f-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+  text-align: center;
+}
+
 .facility-img {
   margin: 20px 200px;
 }
 .facility-cobtainer img {
   margin: 30px 0;
 }
-.facility-cobtainer p {
-  margin-bottom: 25px;
-}
+/* .facility-cobtainer p {
+  margin: 25px 30px;
+} */
 /* extra section */
 .extra {
   margin: 80px 350px;
   height: 300px;
   width: 600px;
-   
+
   border-radius: 8px;
   background-image: url("/assunnah-project-tree-plantation.jpg");
   background-repeat: no-repeat;
   background-size: 600px;
-   
 }
-.extra-titel{
+.extra-titel {
   text-align: center;
   font-size: 50px;
-
 }
-.extra-titel:hover{
+.extra-titel:hover {
   color: green;
   cursor: pointer;
+}
+/* sing up container  style*/
+.sing-up-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+}
+.sing-up-container img {
+  width: 318px;
+  height: 420px;
+  margin: 70px 300px 70px auto;
+}
+.sing-titel {
+  color: #272727;
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  margin-left: 100px;
+}
+.sing-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sing-btn {
+  border: none;
+  align-items: center;
+  margin-left: 300px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #e55473;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* style instagram */
+.instagram-titel {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.instagram-description {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+.instagram-box{
+  display: flex;
+  justify-content: center;
+  margin-top: -40px ;
   
 }
