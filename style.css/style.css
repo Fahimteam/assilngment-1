@@ -207,8 +207,6 @@
   margin: 80px 100px;
   background-size: width 1440px;
   height: 409px;
-  
-  
 }
 .deal-titel {
   color: #272727;
@@ -241,13 +239,46 @@
   line-height: normal;
   margin-left: 285px;
   padding: 20px 300px 20px 20px;
-  
 }
-.deal-btn1{
+.deal-btn1 {
   border: none;
   border-radius: 4px;
   color: #fff;
-  background-color:#E55473; 
+  background-color: #e55473;
   padding: 10px 20px;
   margin-left: 10px;
+}
+/* footer Style */
+footer {
+  width: 100vw;
+  background-color: black;
+}
+.footer-titel {
+  color: #fff;
+  text-align: center;
+  padding-top: 128px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer-sub-description {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+ 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 128px;
 }
